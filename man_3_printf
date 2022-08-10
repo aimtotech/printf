@@ -1,5 +1,6 @@
 .TH _PRINTF 3  "Holberton School 0x11. C - _printf"
 
+
 .SH NAME
 .B _printf\fR \- formatted output conversion
 
@@ -68,6 +69,7 @@ A sign (+ or -) is always placed before a number produced by signed conversion.
 .B 0
 .in +2n
 For \fBd\fR, \fBi\fR, \fBo\fR, \fBu\fR, \fBx\fR, and \fBX\fR conversions, the
+i
 converted value is padded on the left with zeroes rather than blanks. If the
 \fB0\fR flag is provided to a numeric conversion with a specified precision,
 it is ignored.
